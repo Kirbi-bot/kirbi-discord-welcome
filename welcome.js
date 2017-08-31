@@ -10,8 +10,8 @@ module.exports = function (Kirbi) {
 				if (msg.channel.id !== Kirbi.Config.discord.welcomeChannel) {
 					return;
 				}
-		
-				let welcomeMessage = Kirbi.getFileContents('/extras/welcome.md');
+
+				let welcomeMessage = Kirbi.getFileContents('extras/welcome.md');
 				if (welcomeMessage) {
 					welcomeMessage = welcomeMessage.split('=====');
 					welcomeMessage.forEach(message => {
