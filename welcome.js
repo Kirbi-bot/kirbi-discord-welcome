@@ -1,4 +1,4 @@
-module.exports = function (Kirbi) {
+module.exports = Kirbi => {
 	return {
 		commands: [
 			'welcome'
