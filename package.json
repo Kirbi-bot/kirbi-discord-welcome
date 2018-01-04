@@ -8,13 +8,18 @@
 		"type": "git",
 		"url": "git+https://github.com/Richardson-Media-House/kirbi-discord-welcome.git"
 	},
-	"author": "Nate Richardson <hello@naterichardson.com> (https://naterichardson.com)",
+	"author": "Matt Carroll <admin@develogix.com> (https://develogix.com)",
 	"contributors": [
-		"Matt Carroll <admin@develogix.com> (https://develogix.com)",
+		"Nate Richardson <hello@naterichardson.com> (https://naterichardson.com)",
 		"Joseph Moran III <joseph.moraniii@gmail.com> (https://josephmoran.co)"
 	],
 	"main": "welcome.js",
-	"dependencies": {},
+	"dependencies": {
+		"chalk": "^2.3.0",
+		"mongoose": "^4.12.4",
+		"kirbi-discord": "github:Richardson-Media-House/kirbi-discord",
+		"kirbi-mongodb": "github:Richardson-Media-House/kirbi-mongodb"
+	},
 	"devDependencies": {
 		"xo": "^0.18.2"
 	},
